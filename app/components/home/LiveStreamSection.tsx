@@ -57,7 +57,7 @@ export const LiveStreamSection = () => {
               </span>
             </h2>
             <p className="max-w-3xl mx-auto text-xl text-blue-100 leading-relaxed">
-              Experience worship, community, and God's word from anywhere in the
+              Experience worship, community, and God&apos;s word from anywhere in the
               world. Connect with our church family in real-time.
             </p>
           </div>

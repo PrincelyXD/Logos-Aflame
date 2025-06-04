@@ -59,13 +59,13 @@ export const HeroSection = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-nunito leading-tight mb-6 text-white">
               Experience{" "}
               <span className="text-gradient font-black bg-gradient-to-r from-amber-300 to-red-400 bg-clip-text text-transparent">
-                God's Love
+                God&apos;s Love
               </span>{" "}
               With Us Every Sunday
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100   leading-relaxed">
               Join our welcoming community where faith comes alive, hearts are
-              transformed, and lives find purpose through God's endless love.
+              transformed, and lives find purpose through God&apos;s endless love.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <CustomButton
@@ -106,7 +106,7 @@ export const HeroSection = () => {
           >
             <div className="relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-                <Image
+                <img
                   src="/church-service.png"
                   alt="Church community"
                   className="w-full h-96 object-cover"

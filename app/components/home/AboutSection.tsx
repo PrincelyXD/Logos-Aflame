@@ -40,7 +40,7 @@ export const AboutSection = () => {
           <div className="w-24 h-1 bg-red-600 mx-auto mb-8"></div>
           <p className="max-w-3xl mx-auto text-lg text-gray-600">
             Logos Aflame Ministries is a vibrant, welcoming community of
-            believers dedicated to spreading God's word and serving our
+            believers dedicated to spreading God&apos;s word and serving our
             community through faith, love, and action.
           </p>
         </div>

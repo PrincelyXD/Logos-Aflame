@@ -5,7 +5,8 @@ import React from "react";
 const CurrentlyLive = () => {
   return (
     <div className="relative w-full h-full">
-      <Image
+      <img
+      
         src="/live-thumbnail.png"
         alt="Live church service"
         className="w-full h-full object-cover"

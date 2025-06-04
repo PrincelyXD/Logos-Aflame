@@ -8,7 +8,7 @@ const NotLive = () => {
       <Play className="h-8 w-8 text-white ml-1" />
     </div>
     <h3 className="text-2xl font-bold mb-3 text-white">
-      We're not live right now
+      We&apos;re not live right now
     </h3>
     <p className="text-blue-200 mb-6">
       Check our schedule below for upcoming live streams

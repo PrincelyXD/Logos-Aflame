@@ -13,7 +13,7 @@ export const Footer = () => {
           <Logo/>
             <p className="text-gray-400 mb-4">
               Igniting Faith, Building Community, Transforming Lives through the
-              power of God's word.
+              power of God&apos;s word.
             </p>
             <div className="flex space-x-4">
               <a
