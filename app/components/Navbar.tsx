@@ -1,12 +1,11 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { ChevronDown, Play, Phone, HeartHandshake } from "lucide-react";
+import { ChevronDown, Play, Phone, HeartHandshake, Link } from "lucide-react";
 import Logo from "./Logo";
 import MobileHamMenu from "./MobileHamMenu";
 import CustomButton from "./CustomButton";
 import { departments } from "../assets/static";
-import Link from "next/link";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -64,13 +63,9 @@ const Navbar = () => {
                 Departments <ChevronDown className="ml-1 h-4 w-4" />
               </button>
 
-              <div
-                className=".desktop-link_dropdown 
-              group-hover:scale-100 opacity-0 group-hover:opacity-100"
-              >
+              <div className="absolute left-0 mt-2 w-56 bg-white/95 backdrop-blur-md shadow-modern rounded-xl overflow-hidden transform scale-0 group-hover:scale-100 opacity-0 group-hover:opacity-100 transition-all duration-300 origin-top">
                 {departments.map((dept) => (
                   <Link
-                    key={dept.title}
                     href={dept.path}
                     className="mobile-nav_link pl-5 hover:font-medium  text-sm "
                   >
