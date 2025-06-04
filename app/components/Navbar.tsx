@@ -67,6 +67,7 @@ const Navbar = () => {
                 {departments.map((dept) => (
                   <Link
                     href={dept.path}
+                    key={dept.title}
                     className="mobile-nav_link pl-5 hover:font-medium  text-sm "
                   >
                     {dept.title}
