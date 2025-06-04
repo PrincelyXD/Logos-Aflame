@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+
 import { Heart, Users, BookOpen } from 'lucide-react'
 import CardDesignOne from '../CardDesignOne'
 

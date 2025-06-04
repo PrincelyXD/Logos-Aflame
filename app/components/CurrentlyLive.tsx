@@ -1,10 +1,11 @@
 import { Maximize, Play } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 const CurrentlyLive = () => {
   return (
     <div className="relative w-full h-full">
-      <img
+      <Image
         src="/live-thumbnail.png"
         alt="Live church service"
         className="w-full h-full object-cover"

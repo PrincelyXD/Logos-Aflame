@@ -1,19 +1,12 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import {
-  Menu,
-  X,
-  ChevronDown,
-  Heart,
-  Play,
-  Phone,
-  HeartHandshake,
-} from "lucide-react";
+import { ChevronDown, Play, Phone, HeartHandshake } from "lucide-react";
 import Logo from "./Logo";
 import MobileHamMenu from "./MobileHamMenu";
 import CustomButton from "./CustomButton";
 import { departments } from "../assets/static";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -44,7 +37,7 @@ const Navbar = () => {
           </div>
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-5">
-            <a
+            <Link
               href="#"
               className={`${
                 isScrolled ? "text-gray-800" : "text-white"
@@ -52,8 +45,8 @@ const Navbar = () => {
             >
               Home
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
-            </a>
-            <a
+            </Link>
+            <Link
               href="#about"
               className={`${
                 isScrolled ? "text-gray-800" : "text-white"
@@ -61,7 +54,7 @@ const Navbar = () => {
             >
               About
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
-            </a>
+            </Link>
             <div className="relative group">
               <button
                 className={`flex items-center ${
@@ -76,16 +69,17 @@ const Navbar = () => {
               group-hover:scale-100 opacity-0 group-hover:opacity-100"
               >
                 {departments.map((dept) => (
-                  <a
+                  <Link
+                    key={dept.title}
                     href={dept.path}
                     className="mobile-nav_link pl-5 hover:font-medium  text-sm "
                   >
                     {dept.title}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
-            <a
+            <Link
               href="#live"
               className={`${
                 isScrolled ? "text-gray-800" : "text-white"
@@ -94,8 +88,8 @@ const Navbar = () => {
               <Play className="h-4 w-4 mr-1" />
               Watch Live
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
-            </a>
-            <a
+            </Link>
+            <Link
               href="#contact"
               className={`${
                 isScrolled ? "text-gray-800" : "text-white"
@@ -104,7 +98,7 @@ const Navbar = () => {
               <Phone className="h-4 w-4 mr-1" />
               Contact
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
-            </a>
+            </Link>
             <CustomButton
               className=" flex gap-x-2 w-fit scale-[0.8] live-cta"
               beforeIcon={<HeartHandshake />}

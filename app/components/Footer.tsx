@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import { Facebook, Instagram, Youtube } from "lucide-react";
 import React from "react";
 import Logo from "./Logo";
 

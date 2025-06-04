@@ -5,6 +5,7 @@ import { ArrowRight, Calendar, Clock, Users } from "lucide-react";
 import { calculateTimeToService } from "@/app/utils/calculateTimeToservice";
 import CustomButton from "../CustomButton";
 import CountUp from "../CounterUp";
+import Image from "next/image";
 
 export const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -105,7 +106,7 @@ export const HeroSection = () => {
           >
             <div className="relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-                <img
+                <Image
                   src="/church-service.png"
                   alt="Church community"
                   className="w-full h-96 object-cover"

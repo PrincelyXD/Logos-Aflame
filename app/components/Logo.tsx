@@ -1,8 +1,9 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Logo = () => {
   return (
-    <a href="/" className="flex w-fit relative scale-[0.7] md:scale-[0.8] justify-center  items-center group">
+    <Link href="/" className="flex w-fit relative scale-[0.7] md:scale-[0.8] justify-center  items-center group">
     <span className="bg-white w-20 h-14 absolute  rounded-full">
 
     </span>
@@ -13,7 +14,7 @@ const Logo = () => {
       />
    
     
-  </a>
+  </Link>
   )
 }
 
