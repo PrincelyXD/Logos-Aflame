@@ -1,11 +1,12 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { ChevronDown, Play, Phone, HeartHandshake, Link } from "lucide-react";
+import { ChevronDown, Play, Phone, HeartHandshake, } from "lucide-react";
 import Logo from "./Logo";
 import MobileHamMenu from "./MobileHamMenu";
 import CustomButton from "./CustomButton";
 import { departments } from "../assets/static";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
