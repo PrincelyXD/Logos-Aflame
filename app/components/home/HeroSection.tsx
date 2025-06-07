@@ -84,7 +84,7 @@ export const HeroSection = () => {
               <CustomButton
                 text="Plan Your Visit"
                 className="group schedule-cta hover:bg-white hover:text-blue-900"
-                href="/events"
+                href="/contact"
                 afterIcon={
                   <Calendar
                     size={18}
@@ -98,7 +98,7 @@ export const HeroSection = () => {
           </div>
           {/* Image/Visual */}
           <div
-            className={`transition-all duration-1000 delay-300 transform ${
+            className={`transition-all  duration-1000 delay-300 transform ${
               isVisible
                 ? "translate-y-0 opacity-100"
                 : "translate-y-10 opacity-0"

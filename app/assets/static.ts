@@ -68,7 +68,7 @@ export const blogPosts = [
 export const NavRoutes = [
   { title: "Home", path: "/" },
   { title: "About", path: "/about" },
-  { title: "Watch Live", path: "/portfolio" },
+  { title: "Watch Live", path: "https://www.youtube.com/@logosaflameministries/streams" },
   { title: "Contact", path: "/contact" },
 ];
 

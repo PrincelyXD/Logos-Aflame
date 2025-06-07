@@ -16,7 +16,7 @@ const MobileHamMenu = ({ isScrolled }: { isScrolled: boolean }) => {
   return (
     <div className="flex lg:hidden ">
       <Hamburger
-        color={isScrolled ? "#000" : "#fff"}
+        color={isScrolled ? "#000" : "#cccccc"}
         direction="left"
         toggled={isOpen}
         toggle={setIsOpen}

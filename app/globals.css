@@ -16,7 +16,7 @@
   }
 
   .live-cta {
-    @apply bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl;
+    @apply bg-gradient-to-r from-[#f79007] to-red-700 hover:from-[#f79007] hover:to-red-800 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl;
   }
   .schedule-cta {
     @apply bg-white/10 backdrop-blur-md border-2 border-white/30  text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 flex items-center justify-center;

@@ -12,13 +12,13 @@ const GetInTouch = () => {
         </h3>
 
         
-        <p className="my-[30px] px-10 text-base md:text-[17px]">
+        <p className=" my-5 px-10 text-base md:text-[17px]">
           We’re here to pray with you, support you, and walk with you in faith.
           <br />
           <i className="font-medium flex-col md:flex-row flex-center gap-x-5 pt-2">
-            {" "}
-            <span>Call us:</span> <span>081 1700 2787</span>
-            <span>OR</span> 080 7741 4660
+         
+           
+           080 7741 4660
           </i>
         </p>
 
