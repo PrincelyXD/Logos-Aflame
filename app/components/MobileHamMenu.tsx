@@ -54,11 +54,13 @@ const MobileHamMenu = ({ isScrolled }: { isScrolled: boolean }) => {
                 toggled={isOpen}
                 toggle={setIsOpen}
                 size={25}
+                color="#000"
               />
 
               <ul className=" my-5 flex flex-col   gap-y-3 ">
                 {NavRoutes.map((route, index) => (
                   <motion.li
+                  onClick={() => setIsOpen(false)}
                     initial={{ transform: "translateY(30px)", opacity: 0 }}
                     animate={{ transform: "translateY(0px)", opacity: 1 }}
                     transition={{
@@ -78,7 +80,7 @@ const MobileHamMenu = ({ isScrolled }: { isScrolled: boolean }) => {
                   </motion.li>
                 ))}
 
-                <AccordionList />
+                <AccordionList setIsOpen={setIsOpen} />
               </ul>
               <CustomButton
                 className=" flex gap-x-2 w-fit  live-cta"

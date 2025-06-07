@@ -40,7 +40,7 @@ const BlogCard = ({ post }: { post: Post }) => {
 
         <div className="flex justify-between">
           <UserAvatarCircle
-            person1="bg-[url('/pst-grace2.png')]"
+            person1="bg-[url('/pst-grace.png')]"
             person2="bg-[url('/pst-chike.png')]"
             group={authors}
           />

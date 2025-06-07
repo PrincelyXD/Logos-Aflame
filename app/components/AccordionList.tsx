@@ -1,13 +1,14 @@
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import React from "react";
+import React, { SetStateAction } from "react";
 import { departments } from "../assets/static";
 
-const AccordionList = () => {
+const AccordionList = ({setIsOpen}:{setIsOpen:React.Dispatch<SetStateAction<boolean>>}) => {
   const [accordionOpen, setAccordionOpen] = React.useState(false);
   return (
     <motion.li
+   
       initial={{ transform: "translateY(30px)", opacity: 0 }}
       animate={{ transform: "translateY(0px)", opacity: 1 }}
       transition={{
@@ -37,6 +38,7 @@ const AccordionList = () => {
         <ul className="flex flex-col px-3">
           {departments.map((department, index) => (
             <motion.li
+            onClick={()=> setIsOpen(false)}
               initial={{
                 transform: "translateY(30px)",
                 opacity: 0,

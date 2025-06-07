@@ -12,7 +12,7 @@ const GetInTouch = () => {
         </h3>
 
         
-        <p className="my-[30px] px-10 text-[14px] xs:text-[17px]">
+        <p className="my-[30px] px-10 text-base md:text-[17px]">
           We’re here to pray with you, support you, and walk with you in faith.
           <br />
           <i className="font-medium flex-col md:flex-row flex-center gap-x-5 pt-2">
@@ -23,7 +23,7 @@ const GetInTouch = () => {
         </p>
 
         <a
-          className="h-fit rounded-[10px] bg-red-600 px-5 py-2 font-semibold text-white transition-transform duration-500 hover:scale-[1.1] xs:text-[18px] sm:px-7 sm:py-3"
+          className="live-cta"
           href="/contact"
         >
           Get in Touch

@@ -19,7 +19,7 @@
     @apply bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl;
   }
   .schedule-cta {
-    @apply bg-white/10 backdrop-blur-md border-2 border-white/30 hover:bg-white hover:text-blue-900 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 flex items-center justify-center;
+    @apply bg-white/10 backdrop-blur-md border-2 border-white/30  text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 flex items-center justify-center;
   }
 
   .countdown-badge {
@@ -57,5 +57,16 @@
 
   .desktop-link_dropdown {
     @apply absolute left-0 mt-2 w-56 bg-white/95 backdrop-blur-md  rounded-xl overflow-hidden transform scale-0  transition-all duration-300 origin-top;
+  }
+
+  .dark-overlay {
+    @apply absolute bg-gradient-to-t
+    from-black/30 to-black/80
+   pt-[50px] text-white  inset-0;
+  }
+
+  .bottom-gradient {
+    @apply absolute bottom-0 left-0 mb-0
+     w-full h-32 bg-gradient-to-t from-white  to-transparent
   }
 }
