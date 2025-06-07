@@ -1,3 +1,6 @@
+"use client";
+import { motion } from "framer-motion";
+
 const AboutHero = () => {
   return (
     <div
@@ -8,16 +11,33 @@ const AboutHero = () => {
       <div className=" dark-overlay flex-center">
         <div className="relative z-10 text-center text-white px-4">
           {/* Fun Headline */}
-          <h1 className="text-5xl font-nunito md:text-7xl font-black mb-7 drop-shadow-lg">
+          <motion.h1
+           initial={{ opacity: 0, transform: "translateY(20px)" }}
+           whileInView={{ opacity: 1, transform: "translateY(3px)" }}
+           viewport={{ once: true }}
+           transition={{ duration: 0.4, delay: 0.2 }}
+           
+            className="text-5xl font-nunito md:text-7xl font-black mb-7 drop-shadow-lg"
+          >
             Get to Know Us at <br /> Logos Aflame
-          </h1>
+          </motion.h1>
 
-          <p className="font-semibold my-5 text-lg">Sundays at 10:00am</p>
+          <motion.p
+             initial={{ opacity: 0,}}
+             whileInView={{ opacity: 1, }}
+            className="font-semibold my-5 text-lg"
+          >
+            Sundays at 10:00am
+          </motion.p>
 
-          {/* Call-to-Action Button */}
-          <button className="schedule-cta w-full my-5 cursor-pointer">
+          <motion.button
+             initial={{ opacity: 0, transform: "translateY(20px)" }}
+             whileInView={{ opacity: 1, transform: "translateY(3px)" }}
+            transition={{ duration: 0.4, delay: 0.4 }}
+            className="schedule-cta w-full my-5 cursor-pointer"
+          >
             Dive Into Our Story
-          </button>
+          </motion.button>
         </div>
       </div>
 

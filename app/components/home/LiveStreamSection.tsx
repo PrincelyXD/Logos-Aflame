@@ -26,19 +26,19 @@ export const LiveStreamSection = () => {
   const upcomingStreams = [
     {
       title: "Sunday Morning Worship",
-      date: "May 21, 2023",
+      date: "Jun 8, 2025",
       time: "10:00 AM",
       type: "Live Service",
     },
     {
       title: "Midweek Bible Study",
-      date: "May 24, 2023",
+      date: "Jun 24, 2023",
       time: "7:00 PM",
       type: "Interactive Study",
     },
     {
       title: "Prayer & Worship Night",
-      date: "May 26, 2023",
+      date: "Aug 26, 2023",
       time: "7:30 PM",
       type: "Community Prayer",
     },

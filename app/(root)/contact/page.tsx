@@ -4,6 +4,9 @@ import { motion } from "framer-motion";
 import { Phone, Mail } from "lucide-react";
 import ContactForm from "./components/ContactForm";
 
+
+
+
 const Page = () => {
   return (
     <section className="h-fit w-full bg-faint-white py-[30px] text-black">

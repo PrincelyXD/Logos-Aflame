@@ -18,6 +18,32 @@ export const metadata: Metadata = {
   title: "Logos Aflame Ministries - Creating Love and Passion for God's Word ",
   description:
     "Logos Aflame Ministries is a Christian organization dedicated to igniting love and passion for God's Word through teaching, discipleship, and community engagement.",
+    keywords: ["Logos Aflame", "church", "faith", "God's Word", "Christian community"],
+    authors: [{ name: "Logos Aflame Team" }],
+    creator: "Logos Aflame",
+    openGraph: {
+      title: "Logos Aflame Ministries",
+      description: "Discover how we worship, grow, and serve together at Logos Aflame Ministries.",
+      url: "https://logos-aflame.vercel.app/",
+      siteName: "Logos Aflame Ministries",
+      images: [
+        {
+          url: "https://logos-aflame.vercel.app/lam-building.png", // recommended size: 1200x630
+          width: 1200,
+          height: 630,
+          alt: "Logos Aflame Church gathering",
+        },
+      ],
+      locale: "en_US",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Logos Aflame Ministries",
+      description: "Join us in creating Love and Passion for God's Word",
+      images: ["https://logos-aflame.vercel.app/lam-building.png"],
+      creator: "@logosaflame",
+    },
 };
 
 export default function RootLayout({

@@ -126,7 +126,7 @@ const ContactForm = () => {
         <div className="relative bottom-[-90px] sm:bottom-[-130px]">
           <button
             type="submit"
-            className="live-cta"
+            className="live-cta cursor-pointer"
             // className={`rounded-[10px] ${state.submitting && "pointer-events-none cursor-not-allowed"} border-[1px] border-[#FF0000] px-[30px] py-[8px] font-nunito font-bold uppercase transition-colors duration-300 hover:bg-company-red hover:text-white sm:py-[15px]`}
           >
             Submit

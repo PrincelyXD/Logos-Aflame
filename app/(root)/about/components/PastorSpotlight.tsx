@@ -8,7 +8,7 @@ export const PastorSpotlight = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <section id="pastor-spotlight" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-5">
         <div className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center`}>
           {/* Image Column */}
           <div className="relative">
