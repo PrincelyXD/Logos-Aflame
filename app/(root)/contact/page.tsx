@@ -19,11 +19,11 @@ const Page = () => {
             Get in Touch
           </span>
           <h2 className="mb-5 w-full text-[40px] font-medium leading-[1.3] md:w-[350px]">
-            Let's Chat, Reach Out to Us
+            Let’s Chat, Reach Out to Us
           </h2>
 
           <p className="pr-10 font-manrope text-[16px] font-light">
-            Have questions or feedback?We're here to help. Send us a message,
+            Have questions or feedback? We’re here to help. Send us a message,
             and we’d respond within 24 hours
           </p>
           <span className="mt-10 block h-[1px] w-full bg-[#00000026]" />

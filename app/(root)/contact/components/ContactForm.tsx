@@ -1,11 +1,11 @@
 // import { ValidationError, useForm } from "@formspree/react";
 
-import { motion } from "framer-motion";
+
 import { useRef, useState } from "react";
 
 const ContactForm = () => {
 //   const [state, handleSubmit, reset] = useForm("");
-  const [closeModal, setCloseModal] = useState(true);
+
 
   const formRef = useRef<HTMLFormElement>(null);
 
