@@ -2,7 +2,7 @@
 import { blogPosts } from '@/app/assets/static'
 
 import BlogCard from '../BlogCard'
-import { getNextSundaysDate } from '@/app/utils/calculateTimeToservice'
+
 export const BlogSection = () => {
 
 
