@@ -1,6 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import {  Clock, MapPin } from "lucide-react";
+import { getNextSundaysDate } from "../utils/calculateTimeToservice";
+
+const {day, month} = getNextSundaysDate()
 const EventCard = ({
   title,
   image,
@@ -43,8 +46,8 @@ const EventCard = ({
           className=" event-card_sect  border-r border-slate-500  h-fit pb-5
            items-center"
         >
-          <p className="">Dec</p>
-          <span className="font-bold text-3xl">24</span>
+          <p className="">{month}</p>
+          <span className="font-bold text-3xl">{day}</span>
         </div>
 
         <div className=" col-span-3 event-card_sect  pl-5">

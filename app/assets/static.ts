@@ -40,7 +40,7 @@ export const blogPosts = [
     date: "May 15, 2023",
     image:
       "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
-    author: "Pastor Michael Johnson",
+    author: "Pastor Grace Johnson",
     authors: 1,
   },
   {
@@ -50,7 +50,7 @@ export const blogPosts = [
     date: "April 28, 2023",
     image:
       "https://images.unsplash.com/photo-1545987796-200677ee1011?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
-    author: "Sarah Williams",
+    author: "Pastor Grace and Pastor Chike",
     authors: 2,
   },
   {
@@ -60,7 +60,7 @@ export const blogPosts = [
     date: "April 10, 2023",
     image:
       "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
-    author: "Dr. Robert Chen",
+    author: "Pastor Grace Johnson ",
     authors: 1,
   },
 ];

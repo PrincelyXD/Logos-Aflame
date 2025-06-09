@@ -21,3 +21,21 @@ export const calculateTimeToService = (setTimeToService:React.Dispatch<SetStateA
     setTimeToService(`${days} days until Sunday service`)
   }
 }
+
+export const getNextSundaysDate = ()=>{
+  const now = new Date();
+  const dayOfWeek = now.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+  const daysUntilNextSunday = (7 - dayOfWeek) % 7 || 7;
+  
+  const nextSunday = new Date(now);
+  nextSunday.setDate(now.getDate() + daysUntilNextSunday);
+  
+  const month = nextSunday.toLocaleString('default', { month: 'short' });
+const day = nextSunday.getDate(); 
+  
+return {
+  month: month,
+  day:day
+}
+  
+}

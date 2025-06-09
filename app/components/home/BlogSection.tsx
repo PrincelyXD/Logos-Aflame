@@ -2,9 +2,9 @@
 import { blogPosts } from '@/app/assets/static'
 
 import BlogCard from '../BlogCard'
+import { getNextSundaysDate } from '@/app/utils/calculateTimeToservice'
 export const BlogSection = () => {
 
- 
 
   return (
     <section id="blog" className="py-20 bg-white">
