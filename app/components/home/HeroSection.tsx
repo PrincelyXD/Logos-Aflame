@@ -69,7 +69,7 @@ export const HeroSection = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <CustomButton
-                href="#live"
+                href="/https://www.youtube.com/@logosaflameministries/streams"
                 beforeIcon={<Users className="h-5 w-5 mr-2" />}
                 afterIcon={
                   <ArrowRight

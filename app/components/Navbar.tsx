@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { ChevronDown, Play, Phone, HeartHandshake, } from "lucide-react";
+import { ChevronDown,  Phone, HeartHandshake, PictureInPicture, } from "lucide-react";
 import Logo from "./Logo";
 import MobileHamMenu from "./MobileHamMenu";
 import CustomButton from "./CustomButton";
@@ -77,14 +77,13 @@ const Navbar = () => {
               </div>
             </div>
             <Link
-              href="https://www.youtube.com/@logosaflameministries/streams"
-              target="_blank"
+              href="/gallery"
               className={`${
                 isScrolled ? "text-gray-800" : "text-white"
               } hover:text-blue-600 font-medium transition-all duration-300 relative p-1 lg:p-3 group flex items-center`}
             >
-              <Play className="h-4 w-4 mr-1" />
-              Watch Live
+              <PictureInPicture className="h-4 w-4 mr-1" />
+              Gallery
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
             </Link>
             <Link

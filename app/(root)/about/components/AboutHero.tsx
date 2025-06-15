@@ -12,10 +12,13 @@ const AboutHero = () => {
         <div className="relative z-10 text-center text-white px-4">
           {/* Fun Headline */}
           <motion.h1
-           initial={{ opacity: 0, transform: "translateY(20px)" }}
-           whileInView={{ opacity: 1, transform: "translateY(3px)" }}
-           viewport={{ once: true }}
-           transition={{ duration: 0.4, delay: 0.2 }}
+           initial={{ opacity: 0, transform: "translateY(20px)"}}
+           animate={{ opacity: 1, transform: "translateY(0px)" }}
+           transition={{
+             duration: 0.5,
+             ease: [0.4, 0, 0.2, 1], // ease-out
+             delay: 0.2,
+           }}
            
             className="text-5xl font-nunito md:text-7xl font-black mb-7 drop-shadow-lg"
           >
@@ -23,8 +26,13 @@ const AboutHero = () => {
           </motion.h1>
 
           <motion.p
-             initial={{ opacity: 0,}}
-             whileInView={{ opacity: 1, }}
+             initial={{ opacity: 0, scale:0.7}}
+             animate={{ opacity: 1, scale:1 }}
+             transition={{
+              duration: 0.5,
+              ease: [0.4, 0, 0.2, 1], // ease-out
+              delay: 0.2,
+            }}
             className="font-semibold my-5 text-lg"
           >
             Sundays at 10:00am
@@ -32,8 +40,8 @@ const AboutHero = () => {
 
           <motion.button
              initial={{ opacity: 0, transform: "translateY(20px)" }}
-             whileInView={{ opacity: 1, transform: "translateY(3px)" }}
-            transition={{ duration: 0.4, delay: 0.4 }}
+             animate={{ opacity: 1, transform: "translateY(3px)" }}
+            transition={{ duration: 0.4,  ease: [0.4, 0, 0.2, 1], delay: 0.6 }}
             className="schedule-cta w-full my-5 cursor-pointer"
           >
             Dive Into Our Story

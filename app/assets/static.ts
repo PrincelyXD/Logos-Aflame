@@ -68,7 +68,7 @@ export const blogPosts = [
 export const NavRoutes = [
   { title: "Home", path: "/" },
   { title: "About", path: "/about" },
-  { title: "Watch Live", path: "https://www.youtube.com/@logosaflameministries/streams" },
+  { title: "Gallery", path: "/gallery" },
   { title: "Contact", path: "/contact" },
 ];
 
@@ -95,3 +95,83 @@ export const LeadershipTeam = [
   },
 ];
 
+export const galleryItems = [
+  {
+    id: 1,
+    image: '/blessing.png',
+    category: 'events',
+    title: 'Blessing Service Moment',
+  },
+  {
+    id: 2,
+    image: '/choir.png',
+    category: 'choir',
+    title: 'Choir Ministration',
+  },
+  {
+    id: 3,
+    image: '/church-aerobics.png',
+    category: 'outreach',
+    title: 'Morning Aerobics Fellowship',
+  },
+  {
+    id: 4,
+    image: '/church-fitness-prog.png',
+    category: 'outreach',
+    title: 'Church Fitness Program',
+  },
+  {
+    id: 5,
+    image: '/church-service.png',
+    category: 'worship',
+    title: 'Sunday Worship Service',
+  },
+  {
+    id: 6,
+    image: '/deep-worship.png',
+    category: 'worship',
+    title: 'Deep Worship Session',
+  },
+  {
+    id: 7,
+    image: '/fathers-celeb1.png',
+    category: 'events',
+    title: 'Father’s Day Moment',
+  },
+  {
+    id: 8,
+    image: '/Fathers-Day-Celebration.png',
+    category: 'events',
+    title: 'Father’s Day Celebration',
+  },
+  {
+    id: 9,
+    image: '/gallery-worship1.png',
+    category: 'worship',
+    title: 'Worship at Logos Aflame',
+  },
+  {
+    id: 10,
+    image: '/gallery-worship2.png',
+    category: 'worship',
+    title: 'Spirit-Led Worship',
+  },
+  {
+    id: 11,
+    image: '/kids1.png',
+    category: 'kids',
+    title: 'Children’s Day Celebration',
+  },
+  {
+    id: 12,
+    image: '/kids2.png',
+    category: 'kids',
+    title: 'Kids Praise & Play',
+  },
+  {
+    id: 13,
+    image: '/kids3.png',
+    category: 'kids',
+    title: 'Joyful Moments with Kids',
+  },
+]
